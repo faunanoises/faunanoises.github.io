@@ -1,20 +1,23 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import ringer from "./uh_oh"; //array?
+import ringer from "./uh_oh.mp3";
 import "./styles.css";
 
 const Sound = () => {
   const audio = new Audio(ringer);
+  audio.loop = true;
+
   return (
     <div>
       <button
         onClick={() => {
-		  audio = audio[Math.round(Math.random() * (audio.length - 1))]
+          audio.loop = true;
           audio.play();
         }}
       >
         Play
       </button>
+      <button onClick={() => (audio.loop = false)}>Pause</button>
     </div>
   );
 };
