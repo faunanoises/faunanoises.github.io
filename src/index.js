@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import ringer from "./flipdish-ringer.mp3"; //array?
+import ringer from "./uh_oh"; //array?
 import "./styles.css";
 
 const Sound = () => {
