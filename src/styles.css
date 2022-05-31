@@ -3,8 +3,8 @@
   text-align: center;
   body {background-color: #F6C1B2;} 
 }
-
 body {
   background-color: #F6C1B2;
-  font-family: Verdana;
+  font-family: Verdana, sans-serif;
+  text-align: center;
 }
