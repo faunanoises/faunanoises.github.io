@@ -1,6 +1,6 @@
 var sounds = [
-    "uh_oh",
-    "MyFootIsFallingAsleep_Whisper"
+    "uh_oh.mp3",
+    "MyFootIsFallingAsleep_Whisper.mp3"
 ];
 var sound;
 function generateRandomNumber(max) {
